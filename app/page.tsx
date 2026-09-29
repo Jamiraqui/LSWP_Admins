@@ -50,8 +50,17 @@ export default function AdministratorBrief() {
         </div>
       </section>
 
+      <section className={styles.categories} aria-labelledby="amounts-title">
+        <div className={styles.sectionHead}><div><p className={styles.eyebrow}>02 / AID AMOUNTS</p><h2 id="amounts-title">Support based on the assessed need</h2></div></div>
+        <div className={styles.awardGrid}>
+          <article><span className={styles.smallLabel}>STANDARD AID</span><h3>Up to ₱5,000</h3><p>Subject to Committee approval based on eligibility, urgency, and available funds.</p></article>
+          <article><span className={styles.smallLabel}>ENHANCED AID</span><h3>Above ₱5,000 up to ₱15,000</h3><p>Requires stronger documentation and written justification for why standard aid is insufficient. An award of ₱10,000 may be considered when the assessed situation warrants it.</p></article>
+        </div>
+        <p className={styles.awardNote}>Recommended ceilings from the draft guidelines, not guaranteed amounts. Partial awards are allowed; all assistance remains subject to approval and available funds.</p>
+      </section>
+
       <section id="workflow" className={styles.workflow} aria-labelledby="workflow-title">
-        <div className={styles.sectionHead}><div><p className={styles.eyebrow}>02 / HOW IT WORKS</p><h2 id="workflow-title">One process. Two review tracks.</h2></div><p>Every request is subject to review.<br />An expedited track does not guarantee approval.</p></div>
+        <div className={styles.sectionHead}><div><p className={styles.eyebrow}>03 / HOW IT WORKS</p><h2 id="workflow-title">One process. Two review tracks.</h2></div><p>Every request is subject to review.<br />An expedited track does not guarantee approval.</p></div>
         <div className={styles.tracks}>
           <div><span className={styles.trackTag}>EXPEDITED</span><p>Urgent need <strong>with character testimony.</strong></p></div>
           <div><span className={styles.trackTag}>REGULAR</span><p>No recommender, non-urgent need, or <strong>fuller assessment required.</strong></p></div>
@@ -62,7 +71,7 @@ export default function AdministratorBrief() {
       </section>
 
       <section id="governance" className={styles.governance} aria-labelledby="governance-title">
-        <div className={styles.sectionHead}><div><p className={styles.eyebrow}>03 / STEWARDSHIP</p><h2 id="governance-title">Clear decisions. Protected resources.</h2></div></div>
+        <div className={styles.sectionHead}><div><p className={styles.eyebrow}>04 / STEWARDSHIP</p><h2 id="governance-title">Clear decisions. Protected resources.</h2></div></div>
         <div className={styles.safeguards}>
           <article className={styles.votes}><div className={styles.stat}>2 <span>of</span> 3</div><h3>Votes for routine approval</h3><ul><li>Associate Dean of Student Affairs</li><li>Director, Student Success Center</li><li>Academic Support Coordinator</li></ul></article>
           <article className={styles.budget}><div className={styles.stat}>80<span>%</span></div><h3>Of confirmed annual donations</h3><p>Forms the current-year aid budget. The existing source fund is protected; the budget is not calculated from the total source-fund balance.</p></article>

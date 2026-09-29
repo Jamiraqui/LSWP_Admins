@@ -20,3 +20,5 @@ pnpm start
 
 ## Deploy
 Extract the contents into the root of your GitHub repository, including `.gitignore`, then import the repository into Vercel. The included `vercel.json` provides build settings. No environment variables or database are needed.
+
+Aid amounts: standard aid up to PHP 5,000; enhanced aid above PHP 5,000 up to PHP 15,000, including PHP 10,000 when justified. These are recommended ceilings from the draft guidelines, subject to approval and funds.
